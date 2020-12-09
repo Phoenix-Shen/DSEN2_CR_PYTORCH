@@ -18,7 +18,6 @@ DSen2_CR神经网络的pytorch版本
  
  #在config.py中可以调整网络设置。
  
- 
-   
- 
+ #使用python train.py 来训练网络
+ #使用python predict.py 来预测。
       
