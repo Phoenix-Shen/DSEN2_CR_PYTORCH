@@ -14,10 +14,10 @@ DSen2_CR神经网络的pytorch版本
       -- 以此类推 <br>
     - ROIs2017_winter <br>
  
- # 可以使用visdom ，打开CMD， 输入 pip install visdom 以下载,在CMD中输入 PYTHON -m visdom.server 就可以在浏览器中看到训练的图片和损失，如果不想要这个功能，请在train.py中删除包含"vis"的代码。
+ ## 可以使用visdom ，打开CMD， 输入 pip install visdom 以下载,在CMD中输入 PYTHON -m visdom.server 就可以在浏览器中看到训练的图片和损失，如果不想要这个功能，请在train.py中删除包含"vis"的代码。
  
- # 在config.py中可以调整网络设置。
+ ## 在config.py中可以调整网络设置。
  
- # 使用python train.py 来训练网络
- # 使用python predict.py 来预测。
+ ## 使用python train.py 来训练网络
+ ## 使用python predict.py 来预测。
       
