@@ -2,6 +2,10 @@
 DSen2_CR神经网络的pytorch版本
 
 数据集下载地址：https://dataserv.ub.tum.de/index.php/s/m1554803<br>
+或者百度网盘
+链接：https://pan.baidu.com/s/11lypfXe24byyk5FM8yZ1ZA 
+提取码：fxps
+<br>
 请您以一下方式组织数据：<br>
   dataset_name<br>
     - ROIs1158_spring<br>
