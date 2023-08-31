@@ -97,7 +97,7 @@ def train(config):
             #网络训练
             img_fake = net(img_cld)
             opt.zero_grad()
-            loss= CARL_Loss(img_truth,img_csm,img_fake)
+            loss= CARL_Loss(img_truth,img_csm,img_fake,img_cld)
             loss.backward() 
             opt.step()
             

@@ -45,12 +45,12 @@ def get_rgb_preview(r, g, b, sar_composite=False):
         return rgb.astype(np.uint8)
 
 #CARL LOSS (critical)
-def carl_error(y_true,csm, y_pred):
+def carl_error(y_true,csm, y_pred,input_cloudy):
     """Computes the Cloud-Adaptive Regularized Loss (CARL)"""
     
     clearmask = t.ones_like(csm) - csm
     predicted = y_pred
-    input_cloudy = y_pred
+    # input_cloudy = y_pred
     target = y_true
 
     cscmae = t.mean(clearmask * t.abs(predicted - input_cloudy) + csm * t.abs(
